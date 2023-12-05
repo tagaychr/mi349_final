@@ -4,12 +4,13 @@ color: #7b84b3;
 
 body{
     margin: 0;
+    background-color: #c9cee6;
 }
 
 /*navigation bar styling*/
 nav {
     overflow: hidden;
-    background-color: #271c19;    
+    background-color: #191b27;    
     margin-bottom: 5vh;
 }
 
