@@ -16,7 +16,7 @@ nav img{
 }
 
 /*style the menu items when screen is larger than 650 px*/
-.navBar a {
+.navBar a, .navBar a:visited {
     color: #fff3ec;  
     font-size: 1em;
     height: 4vh;
