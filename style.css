@@ -8,8 +8,6 @@ nav {
     overflow: hidden;
     background-color: #271c19;    
     margin-bottom: 5vh;
-    border: 5px solid #140d0b;
-    border-radius: 5px;      
 }
 
 nav img{
@@ -25,6 +23,12 @@ nav img{
     padding: 15px;
     float: left;
 }
+
+/* Change the color of links on hover */
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 nav .title{
     text-align: left;
