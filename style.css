@@ -2,6 +2,9 @@ h2 {
 color: #7b84b3;
 }
 
+body{
+    padding: 0;
+}
 
 /*navigation bar styling*/
 nav {
