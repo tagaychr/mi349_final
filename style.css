@@ -42,3 +42,59 @@ nav .title{
 .navBar .menuItems{
 	float:right;
 }
+
+
+/*this occurs if the width is LESS than 600px
+remove the menu items and show the menu icon
+*/
+
+@media screen and (max-width: 650px) {
+    .navBar  a.menuItem{
+        /*visibility: hidden;*/
+        display: none;
+        /*height: 0px;
+        width: 0px;
+        padding: 0px 0px 0px 0px;*/
+    }
+    .navBar .menuIcon{
+        float: right;
+        display: block;
+        visibility: visible;
+    }
+}
+
+
+/*
+this occurs if the width is LESS than 600px
+and when the user clicks the menu button
+align the menu items under the icon and to the right
+*/
+@media screen and (max-width: 650px) {
+    .navBar.responsive {
+        position: relative;
+    }
+    .navBar.responsive .menuIcon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navBar.responsive a {
+        text-align: right;
+        float: none;
+        display: block;
+    }
+
+    .navBar.responsive a.title {
+        text-align: left;
+    }
+
+    .navBar.responsive a#LinkedInIcon{
+        display: none;
+
+    }
+
+    .navBar.responsive #LinkedInText{
+        display: block; 
+    }
+
+}
