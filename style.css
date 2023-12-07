@@ -88,6 +88,9 @@ remove the menu items and show the menu icon
         text-align: right;
         float: none;
         display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     .navBar.responsive a.title {
