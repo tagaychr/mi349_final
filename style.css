@@ -51,7 +51,7 @@ nav .title{
 
 /*link styling when hover*/
 .navBar .menuItem:hover,  .navBar .menuIcon:hover{
-    background-color: #e78fb3;
+    background-color: #ffffff;
     opacity: 50%;
     color: #fefeff;
 }
