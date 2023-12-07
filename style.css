@@ -8,6 +8,17 @@ body{
     background-color: #c9cee6;
 }
 
+/*Resume styling*/
+
+.resume{
+    background-color: #272238;    
+    margin-bottom: 5vh;
+    border: 5px solid #1c1927;
+    border-radius: 5px;      
+}
+
+
+
 /*navigation bar styling*/
 nav {
     overflow: hidden;
@@ -111,9 +122,3 @@ hide the menu icon
 
 
 
-.resume{
-    background-color: #272238;    
-    margin-bottom: 5vh;
-    border: 5px solid #1c1927;
-    border-radius: 5px;      
-}
