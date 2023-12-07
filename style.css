@@ -10,13 +10,6 @@ body{
 
 /*Resume styling*/
 
-/*.resume{
-    background-color: #272238;    
-    margin-bottom: 5vh;
-    border: 5px solid #1c1927;
-    border-radius: 5px;      
-}*/
-
 .resume{
     border-radius: 25px;
     background-color: #272238;   
@@ -25,7 +18,7 @@ body{
     padding: 1%;
     width: 90%;
     margin: auto;
-    border: 5px solid #1c1927;
+    border: 1px solid #1c1927;
 }
 .institution {
 display: flex;

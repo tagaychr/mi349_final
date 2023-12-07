@@ -10,7 +10,7 @@
         <!-- The navigation bar -->
         <nav>
             <div class="navBar" id="navBar">
-                <a class = "title">CSE 471 - Homework 2</a>
+                <a class = "title">MI 349 Final Project</a>
                 <div class="menuItems">
                     <a href="index.html" class="menuItem" id="menuItemText">Home</a>
                     <a href="resume.html" class="menuItem" id="menuItemText">Resume</a>
@@ -41,11 +41,11 @@
                 
                 <div class="institution">
                   <div>
-                    <h1 class="inst_name">{{ inst['name'] }}</h1>
+                    <h1 class="inst_name">Michigan State University</h1>
                   </div>
                   <div>
-                    <h2 class="inst_location">{{ inst['city'] }}, {{ inst['state'] }}</h2>
-                    <h2 class="inst_dept">{{inst['department']}}</h2>
+                    <h2 class="inst_location">East Lansing, MI</h2>
+                    <h2 class="inst_dept">Computer Science</h2>
                   </div>
                 </div>
           
@@ -55,18 +55,18 @@
                         <h3 class="pos_title"> </h3>
                         <h3 class="pos_responsibility"></h3>
                         </div>            
-                        <div><h3 class="pos_dates">{{pos['start_date']}} - present</h3></div>
+                        <div><h3 class="pos_dates">9-1-21 - present</h3></div>
                         <!--<div><h3 class="pos_dates">{{pos['start_date']}} - {{pos['end_date']}}</h3></div>-->
                       </div>
           
                       <!-- print experiences -->
                       <ul>
                             <li>
-                                    <h4>{{ exp['name'] }} - {{ exp['description'] }}</h4>
-                                    <h4><a href="{{ exp['hyperlink'] }}">{{ exp['name'] }}</a></h4>
+                                    <h4>Teaching Assistant </h4>
+                                    <h4><a>CSE 102</a></h4>
                     
                                     <!-- Print skills -->
-                                    <h5>{{ exp['skills'].values() | map(attribute='name') | join(', ') }}</h5>
+                                    <h5>Python, UGHHHHHHH</h5>
                             </li>
                     </ul>
           
