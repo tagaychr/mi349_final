@@ -84,12 +84,12 @@ remove the menu items and show the menu icon
         right: 0;
         top: 0;
     }
-    .navBar.responsive a.menuItemText {
+    /*.navBar.responsive a.menuItemText {
         text-align: right;
         float: none;
         display: block;
         
-    }
+    }*/
 
     .navBar.responsive a.title {
         text-align: left;
