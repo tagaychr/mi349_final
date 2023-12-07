@@ -10,7 +10,7 @@ body{
 /*navigation bar styling*/
 nav {
     overflow: hidden;
-    background-color: #191b27;    
+    /*background-color: #191b27;*/
     margin-bottom: 5vh;
 }
 
@@ -69,7 +69,7 @@ remove the menu items and show the menu icon
 /*
  width is LESS than 600px
  the user clicks the menu button
- align the menu items under the icon and to the right
+ align the menu items under the icon and to the right TEXT FORMAT
 */
 @media screen and (max-width: 650px) {
     .navBar.responsive {
@@ -80,7 +80,7 @@ remove the menu items and show the menu icon
         right: 0;
         top: 0;
     }
-    .navBar.responsive a {
+    .navBar.responsive a.menuItemText {
         text-align: right;
         float: none;
         display: block;
