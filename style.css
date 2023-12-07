@@ -17,6 +17,49 @@ body{
     border-radius: 5px;      
 }
 
+.resume{
+    border-radius: 25px;
+    background: #C88EA7;
+    color:#fff3ec;
+    border: 3px solid #140d0b;
+    padding: 1%;
+    width: 90%;
+    margin: auto;
+}
+.institution {
+display: flex;
+justify-content: space-between;
+}
+.inst_name {
+text-align: left;
+}
+.inst_location, .inst_dept {
+text-align: right;
+}
+.inst_dept{
+font-size: 100%;
+}
+
+.position {
+display: flex;
+justify-content: space-between;
+}
+.pos_title {
+text-align: left;
+}
+.pos_responsibility{
+text-align: left;
+}
+.pos_dates {
+text-align: right;
+font-size: 100%;
+}
+
+.resume a{
+text-decoration: underline;
+}
+
+
 
 
 /*navigation bar styling*/
@@ -42,7 +85,7 @@ nav img{
 
 nav .title{
     text-align: left;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .navBar .menuItems{
