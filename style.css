@@ -44,7 +44,7 @@ nav .title{
 }
 
 
-/*this occurs if the width is LESS than 600px
+/* width is LESS than 600px
 remove the menu items and show the menu icon
 */
 
@@ -86,15 +86,6 @@ align the menu items under the icon and to the right
 
     .navBar.responsive a.title {
         text-align: left;
-    }
-
-    .navBar.responsive a#LinkedInIcon{
-        display: none;
-
-    }
-
-    .navBar.responsive #LinkedInText{
-        display: block; 
     }
 
 }
