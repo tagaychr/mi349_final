@@ -33,7 +33,7 @@ nav img{
 
 /*style the menu items when screen is larger than 650 px*/
 .navBar a {
-    color: #fff3ec;  
+    color: #1c1927;  
     font-size: 1em;
     height: 4vh;
     padding: 15px;
@@ -53,7 +53,7 @@ nav .title{
 .navBar .menuItem:hover,  .navBar .menuIcon:hover{
     background-color: #ffffff;
     opacity: 50%;
-    color: #fefeff;
+    color: #1c1927;
 }
 
 /*initially do not display the menu item as text */
