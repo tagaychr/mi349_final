@@ -1,5 +1,6 @@
 h2 {
-color: #7b84b3;
+    /*color: #7b84b3;*/
+    color: #ffffff;
 }
 
 body{
@@ -106,4 +107,13 @@ hide the menu icon
         display: none;
     }
 
+}
+
+
+
+.resume{
+    background-color: #272238;    
+    margin-bottom: 5vh;
+    border: 5px solid #1c1927;
+    border-radius: 5px;      
 }
