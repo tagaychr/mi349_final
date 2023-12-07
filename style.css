@@ -85,7 +85,7 @@ remove the menu items and show the menu icon
         top: 0;
     }
     .navBar.responsive a.menuItemText {
-        
+        float: none;
         display: block;
         
     }
