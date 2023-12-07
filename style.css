@@ -99,7 +99,7 @@ hide the menu icon
 */
 @media screen and (min-width: 650px) {
     .menuIcon {
-        visibility: hidden;
+        display: none;
     }
 
 }
