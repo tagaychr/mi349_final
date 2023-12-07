@@ -56,8 +56,8 @@ nav .title{
     color: #fefeff;
 }
 
-/*initially do not display the linked in text menu item*/
-.navBar .menuIcon, .navBar a#LinkedInText{
+/*initially do not display the menu item as text */
+.navBar .menuIcon, .navBar a#menuItemText{
     display: none;
 }
 
@@ -106,12 +106,12 @@ align the menu items under the icon and to the right
         text-align: left;
     }
 
-    .navBar.responsive a#LinkedInIcon{
+    .navBar.responsive a#menuItemIcon{
         display: none;
 
     }
 
-    .navBar.responsive #LinkedInText{
+    .navBar.responsive #menuItemText{
         display: block; 
     }
 
@@ -125,10 +125,10 @@ and when the user clicks the menu button
 @media screen and (min-width: 650px) {
 
     /*if the user expands the window after clicking the menu icon*/
-    .navBar.responsive #LinkedInIcon{
+    .navBar.responsive #menuItemIcon{
         display: block;
     }
-    .navBar.responsive #LinkedInText{
+    .navBar.responsive #menuItemText{
         display: none;
     }
 }
