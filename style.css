@@ -44,7 +44,9 @@ nav .title{
 }
 
 
-/* width is LESS than 600px
+/* 
+width is LESS than 600px
+user did not click the menu button
 remove the menu items and show the menu icon
 */
 
@@ -65,9 +67,9 @@ remove the menu items and show the menu icon
 
 
 /*
-this occurs if the width is LESS than 600px
-and when the user clicks the menu button
-align the menu items under the icon and to the right
+ width is LESS than 600px
+ the user clicks the menu button
+ align the menu items under the icon and to the right
 */
 @media screen and (max-width: 650px) {
     .navBar.responsive {
@@ -86,6 +88,18 @@ align the menu items under the icon and to the right
 
     .navBar.responsive a.title {
         text-align: left;
+    }
+
+}
+
+/*
+width is more than 650 px
+show the menu items
+hide the menu icon
+*/
+@media screen and (min-width: 650px) {
+    .menuIcon {
+        visibility: hidden;
     }
 
 }
