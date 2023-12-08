@@ -188,3 +188,8 @@ and when the user clicks the menu button
     height: 100%;
     width: 50%;
 }
+
+
+.title-center a{
+    color: #fff3ec;
+}
