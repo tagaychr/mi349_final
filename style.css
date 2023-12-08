@@ -202,3 +202,8 @@ and when the user clicks the menu button
     margin: auto;
     width: 80%;
 }
+
+.logo{
+    height: 4vh;
+    padding: 15px;
+}
