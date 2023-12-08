@@ -190,6 +190,8 @@ align the menu items under the icon and to the right
 
     .navBar.responsive #menuItemText{
         display: block; 
+        color: #1c1927;
+
     }
 
 }
