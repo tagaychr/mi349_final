@@ -204,6 +204,7 @@ and when the user clicks the menu button
 }
 
 .logo{
-    height: 4vh;
-    padding: 15px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
 }
