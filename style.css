@@ -181,7 +181,7 @@ and when the user clicks the menu button
     font-size: 30px;
     height: 100%;
     width: 90%;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 .flex-container > img {
