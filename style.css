@@ -72,6 +72,12 @@ nav img{
     float: left;
 }
 
+.navBar.responsive a {
+    /*color: #1c1927;  */
+    font-size: 1em;
+    height: 4vh;
+}
+
 nav .title{
     text-align: left;
     font-size: 2em;
