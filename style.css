@@ -1,11 +1,7 @@
-h2 {
-    /*color: #7b84b3;*/
-    color: #ffffff;
-}
-
 body{
     margin: 0;
     background-color: #c9cee6;
+    color: #1c1927;
 }
 
 /*Resume styling*/
@@ -54,12 +50,6 @@ text-align: right;
 font-size: 100%;
 }
 
-.resume a{
-text-decoration: underline;
-}
-
-
-
 
 /*navigation bar styling*/
 nav {
@@ -75,7 +65,7 @@ nav img{
 
 /*style the menu items when screen is larger than 650 px*/
 .navBar a {
-    color: #1c1927;  
+    /*color: #1c1927;  */
     font-size: 1em;
     height: 4vh;
     padding: 15px;
