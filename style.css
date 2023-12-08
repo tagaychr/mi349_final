@@ -190,6 +190,7 @@ and when the user clicks the menu button
 }
 
 
-.title-center a{
-    color: #fff3ec;
+.title-center a, .resume a{
+    color: #1c1927;
 }
+
