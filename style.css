@@ -164,3 +164,19 @@ and when the user clicks the menu button
         display: none;
     }
 }
+
+
+
+/*Home page styling*/
+
+.flex-container {
+    display: flex;
+    background-color: #272238;
+}
+  
+.flex-container > div {
+    background-color: #474747;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
