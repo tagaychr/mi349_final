@@ -50,6 +50,45 @@ text-align: right;
 font-size: 100%;
 }
 
+/*about me page styling*/
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .flex-container > div{
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      height: 100%;
+      width: 90%;
+      /*overflow: scroll;*/
+  }
+  
+  .flex-container > img {
+      height: 100%;
+      width: 50%;
+  }
+  
+  
+  .flex-container a, .title-center a, .home a{
+      color: #1c1927;
+  }
+  
+  .resume a {
+      color:#fff3ec;
+  }
+  
+  .home{
+      margin: auto;
+      width: 80%;
+  }
+  
+  
+
+
 
 /*navigation bar styling*/
 nav {
@@ -61,6 +100,11 @@ nav {
 nav img{
     height: 40px;
     width: 40px;
+}
+.logo{
+    padding: 10px;
+    height: 60px;
+    width: 60px;
 }
 
 /*style the menu items when screen is larger than 650 px*/
@@ -76,11 +120,6 @@ nav img{
     /*color: #1c1927;  */
     font-size: 1em;
     height: 4vh;
-}
-
-nav .title{
-    text-align: left;
-    font-size: 2em;
 }
 
 .navBar .menuItems{
@@ -130,7 +169,7 @@ align the menu items under the icon and to the right
         position: relative;
     }
     .navBar.responsive .menuIcon {
-        position: absolute;
+        /*position: absolute;*/
         right: 0;
         top: 0;
     }
@@ -173,44 +212,3 @@ and when the user clicks the menu button
 
 
 
-/*about me page styling*/
-
-.flex-container {
-  display: flex;
-  margin: auto;
-  width: 80%;
-}
-
-.flex-container > div{
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    height: 100%;
-    width: 90%;
-    /*overflow: scroll;*/
-}
-
-.flex-container > img {
-    height: 100%;
-    width: 50%;
-}
-
-
-.flex-container a, .title-center a, .home a{
-    color: #1c1927;
-}
-
-.resume a {
-    color:#fff3ec;
-}
-
-.home{
-    margin: auto;
-    width: 80%;
-}
-
-.logo{
-    padding: 10px;
-    height: 60px;
-    width: 60px;
-}
