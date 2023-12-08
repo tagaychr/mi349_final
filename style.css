@@ -166,23 +166,7 @@ and when the user clicks the menu button
 }
 
 
-
-/*Home page styling*/
-
-.flex-container {
-    display: flex;
-    background-color: #272238;
-    width: 80%;
-    margin: auto;
-    border: 1px solid #1c1927;
-}
-  
-.flex-container > div {
-    background-color: #848484;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    width: 50%;
-    text-align: center;
-    border: 5px solid;
+.button{
+    font-size: 1em;
+    height: 4vh;
 }
