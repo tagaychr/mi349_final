@@ -6,7 +6,7 @@ body{
 
 /*Resume styling*/
 
-.resume{
+.resume, .resume a{
     border-radius: 25px;
     background-color: #272238;   
     color:#fff3ec;
@@ -190,7 +190,6 @@ and when the user clicks the menu button
 }
 
 
-.title-center a, .flex-container a{
+.flex-container a{
     color: #1c1927;
 }
-
