@@ -134,7 +134,7 @@ nav img{
 }
 
 /*initially do not display the menu item as text */
-.navBar .menuIcon, .navBar a#menuItemText{
+.navBar .menuIcon, .navBar a.menuItemText{
     display: none;
 }
 
@@ -183,12 +183,12 @@ align the menu items under the icon and to the right
         text-align: left;
     }
 
-    .navBar.responsive a#menuItemIcon{
+    .navBar.responsive a.menuItemIcon{
         display: none;
 
     }
 
-    .navBar.responsive #menuItemText{
+    .navBar.responsive .menuItemText{
         display: block; 
         color: #1c1927;
 
@@ -204,10 +204,10 @@ and when the user clicks the menu button
 @media screen and (min-width: 650px) {
 
     /*if the user expands the window after clicking the menu icon*/
-    .navBar.responsive #menuItemIcon{
+    .navBar.responsive .menuItemIcon{
         display: block;
     }
-    .navBar.responsive #menuItemText{
+    .navBar.responsive .menuItemText{
         display: none;
     }
 }
